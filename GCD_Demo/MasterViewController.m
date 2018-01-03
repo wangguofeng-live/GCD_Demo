@@ -11,6 +11,7 @@
 
 #import "VMProtocol.h"
 #import "SemaphoreVM.h"
+#import "GroupVM.h"
 
 @interface MasterViewController ()
 
@@ -24,6 +25,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 
     self.objects = @[[SemaphoreVM new],
+                     [GroupVM new],
                      ];
 
 }
