@@ -10,7 +10,6 @@
 
 @implementation GroupVM
 
-
 - (NSString *)vmTitle {
     return @"任务组(Group)";
 }

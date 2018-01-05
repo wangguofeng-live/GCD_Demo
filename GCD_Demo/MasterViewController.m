@@ -10,6 +10,7 @@
 #import "DetailViewController.h"
 
 #import "VMProtocol.h"
+#import "QueueVM.h"
 #import "SemaphoreVM.h"
 #import "GroupVM.h"
 
@@ -24,7 +25,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-    self.objects = @[[SemaphoreVM new],
+    self.objects = @[[QueueVM new],
+                     [SemaphoreVM new],
                      [GroupVM new],
                      ];
 

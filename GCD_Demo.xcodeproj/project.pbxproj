@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD309FC51FFCAD7000A1B762 /* GroupVM.m in Sources */ = {isa = PBXBuildFile; fileRef = CD309FC41FFCAD7000A1B762 /* GroupVM.m */; };
+		CD8F81E11FFE31570086F895 /* QueueVM.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8F81E01FFE31570086F895 /* QueueVM.m */; };
 		CDAB14381FFB268F004C3C5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB14371FFB268F004C3C5A /* AppDelegate.m */; };
 		CDAB143B1FFB268F004C3C5A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB143A1FFB268F004C3C5A /* MasterViewController.m */; };
 		CDAB143E1FFB268F004C3C5A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAB143D1FFB268F004C3C5A /* DetailViewController.m */; };
@@ -21,6 +22,8 @@
 /* Begin PBXFileReference section */
 		CD309FC31FFCAD7000A1B762 /* GroupVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupVM.h; sourceTree = "<group>"; };
 		CD309FC41FFCAD7000A1B762 /* GroupVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupVM.m; sourceTree = "<group>"; };
+		CD8F81DF1FFE31570086F895 /* QueueVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueVM.h; sourceTree = "<group>"; };
+		CD8F81E01FFE31570086F895 /* QueueVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueVM.m; sourceTree = "<group>"; };
 		CDAB14331FFB268F004C3C5A /* GCD_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAB14361FFB268F004C3C5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDAB14371FFB268F004C3C5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				CDAB14581FFB2C27004C3C5A /* VMProtocol.h */,
+				CD8F81DF1FFE31570086F895 /* QueueVM.h */,
+				CD8F81E01FFE31570086F895 /* QueueVM.m */,
 				CDAB14541FFB2AF2004C3C5A /* SemaphoreVM.h */,
 				CDAB14551FFB2AF2004C3C5A /* SemaphoreVM.m */,
 				CD309FC31FFCAD7000A1B762 /* GroupVM.h */,
@@ -169,6 +174,7 @@
 			files = (
 				CDAB143B1FFB268F004C3C5A /* MasterViewController.m in Sources */,
 				CDAB14381FFB268F004C3C5A /* AppDelegate.m in Sources */,
+				CD8F81E11FFE31570086F895 /* QueueVM.m in Sources */,
 				CDAB14491FFB268F004C3C5A /* main.m in Sources */,
 				CDAB143E1FFB268F004C3C5A /* DetailViewController.m in Sources */,
 				CD309FC51FFCAD7000A1B762 /* GroupVM.m in Sources */,
